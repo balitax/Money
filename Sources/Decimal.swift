@@ -34,7 +34,7 @@ import ValueCoding
  It is generic over the decimal number behavior type, which defines the rounding
  and scale rules for base 10 decimal arithmetic.
 */
-public struct _Decimal<Behavior: DecimalNumberBehaviorType>: DecimalNumberType {
+public struct Decimal<Behavior: DecimalNumberBehaviorType>: DecimalNumberType {
 
     public typealias DecimalNumberBehavior = Behavior
 
@@ -51,6 +51,7 @@ public struct _Decimal<Behavior: DecimalNumberBehaviorType>: DecimalNumberType {
         self.storage = storage
     }
 }
+
 
 // MARK: - Equality
 
