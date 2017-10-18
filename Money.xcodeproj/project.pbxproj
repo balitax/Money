@@ -269,6 +269,7 @@
 					};
 					65687D5B1DB3D8B70016FB31 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = "";
 					};
 				};
 			};
